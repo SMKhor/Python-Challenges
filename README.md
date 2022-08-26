@@ -1,2 +1,2 @@
 # python-challenges
-This is a backup for the Python code I've stored on my computer over the past few years. These are the solution code for Python challenges I've completed over the course of my Computer Science study since 2017 hence they are of varying difficulty
+In August, I backed up the Python code I've stored on my computer over the past few years. These are the solution codes for Python challenges I've completed over the course of my computer science studies since 2017; they are of varying difficulty.
