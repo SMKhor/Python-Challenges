@@ -1,0 +1,36 @@
+import turtle
+v1 = int(input("Enter a value:"))
+v2 = int(input("Enter a value:"))
+v3 = int(input("Enter a value:"))
+v4 = int(input("Enter a value:"))
+
+Values = [v1,v2,v3,v4]
+
+turtle.width(3)
+turtle.color("red")
+turtle.penup()
+turtle.goto(-400,-200)
+turtle.pendown()
+turtle.forward(500)
+turtle.goto(-400,-200)
+turtle.left(90)
+turtle.forward(500)
+turtle.penup()
+
+turtle.goto(-400,-200)
+turtle.color("cornflower blue")
+turtle.pendown()
+turtle.right(90)
+turtle.begin_fill()
+for i in range (4):
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(Values[i])
+    turtle.right(90)
+    turtle.write(Values[i])
+    turtle.forward(50)
+    turtle.right(90)
+    turtle.forward(Values[i])
+    turtle.left(90)
+turtle.end_fill()
+turtle.done()

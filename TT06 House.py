@@ -1,0 +1,51 @@
+import turtle
+turtle.shape("turtle")
+
+turtle.penup()
+turtle.goto(-1000, -200)
+turtle.color("forest green")
+turtle.pendown()
+turtle.begin_fill()
+turtle.forward(2000)
+turtle.right(90)
+turtle.forward(500)
+turtle.right(90)
+turtle.forward(2000)
+turtle.right(90)
+turtle.forward(500)
+turtle.end_fill()
+turtle.penup()
+
+turtle.goto(-400, -200)
+turtle.color("light slate gray")
+turtle.pendown()
+turtle.begin_fill()
+for i in range (4):
+    turtle.forward(400)
+    turtle.right(90)
+turtle.end_fill()
+turtle.penup()
+
+turtle.goto(-500,200)
+turtle.color("dark gray")
+turtle.right(90)
+turtle.pendown()
+turtle.begin_fill()
+for i in range (3):
+    turtle.forward(600)
+    turtle.left(120)
+turtle.end_fill()
+turtle.penup()
+
+turtle.goto(-250,-200)
+turtle.color("dodger blue")
+turtle.begin_fill()
+turtle.left(90)
+for i in range(2):
+    turtle.forward(200)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.right(90)
+turtle.end_fill()
+
+turtle.done()
