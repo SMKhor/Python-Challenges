@@ -1,3 +1,6 @@
+#creates a randomly generated maze each time it is run
+#created when I was in Year 9
+
 import turtle
 import random
 
@@ -77,8 +80,7 @@ turtle.down()
 
 # You simply have to beat the maze
 # You are not allowed to change code above, go round the outside, teleport etc.
-# This challenge was made by a year 9 girl!
-# Start coding the solution below.
+# My solution code to the maze is below
 # You can use lists & variables above to help.
 
 turtle.pencolor("red")
